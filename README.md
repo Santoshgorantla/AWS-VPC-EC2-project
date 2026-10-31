@@ -7,7 +7,7 @@ VPC (10.0.0.0/16) -> Public Subnet + Private Subnet -> IGW -> Route Table -> EC2
 ## Steps
 * Created VPC, Subnets, IGW, Route Table
 *  Created Security Group (22,80,443)
-*  Launched EC2 t2.micro Ubuntu
+*  Launched EC2 t3.micro Ubuntu
 *  Installed Nginx and hosted website
 *  Mapped domain via Route 53
   
